@@ -1,8 +1,13 @@
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  right: 0;
+:root {
+  --main-color: rgb(252, 231, 227);
+  --main-font: "Roboto Slab", serif;
 }
 
-
+.hero {
+  background-color: var(--main-color);
+  font-family: var(--main-font);
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10%;
+}
