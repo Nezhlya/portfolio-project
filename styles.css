@@ -36,7 +36,7 @@ a {
 .row {
   margin: 30px;
 }
-.aboutP {
+.body {
   font-size: 20px;
   font-family: var(--main-font);
 }
@@ -63,7 +63,7 @@ a {
   .btn {
     font-size: 13px;
   }
-  .aboutP {
+  .body {
     font-size: 15px;
   }
 }
