@@ -1,9 +1,11 @@
 :root {
-  --main-color: rgb(252, 231, 227);
+  --main-color: rgb(249, 232, 213);
   --main-font: "Roboto Slab", serif;
 }
 
-.hero {
+.hero,
+.about,
+.projects {
   background-color: var(--main-color);
   font-family: var(--main-font);
   text-align: center;
@@ -30,18 +32,17 @@ footer {
 a {
   color: black;
 }
-.about {
-  background-color: var(--main-color);
-  font-family: var(--main-font);
-  text-align: center;
-  padding: 10%;
-}
+
 .row {
   margin: 30px;
 }
 .aboutP {
   font-size: 20px;
   font-family: var(--main-font);
+}
+.carousel {
+  margin: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 @media (max-width: 900px) {
