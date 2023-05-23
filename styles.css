@@ -30,6 +30,19 @@ footer {
 a {
   color: black;
 }
+.about {
+  background-color: var(--main-color);
+  font-family: var(--main-font);
+  text-align: center;
+  padding: 10%;
+}
+.row {
+  margin: 30px;
+}
+.aboutP {
+  font-size: 20px;
+  font-family: var(--main-font);
+}
 
 @media (max-width: 900px) {
   img {
@@ -48,5 +61,8 @@ a {
   }
   .btn {
     font-size: 13px;
+  }
+  .aboutP {
+    font-size: 15px;
   }
 }
