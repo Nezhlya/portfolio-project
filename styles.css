@@ -9,7 +9,7 @@
   background-color: var(--main-color);
   font-family: var(--main-font);
   text-align: center;
-  padding: 10%;
+  padding: 20px;
 }
 .hero h1 {
   font-weight: 600;
@@ -43,6 +43,10 @@ a {
 .carousel {
   margin: 10px 20px 10px 20px;
   padding: 10px 20px 10px 20px;
+}
+.contact {
+  padding: 20px;
+  background-color: var(--main-color);
 }
 
 @media (max-width: 900px) {
